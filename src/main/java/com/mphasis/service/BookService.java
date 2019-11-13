@@ -13,5 +13,5 @@ public interface BookService {
 	
 	public List<Book> findAll();
 	
-	public void save(Book book);
+	public Book save(Book book);
 }
